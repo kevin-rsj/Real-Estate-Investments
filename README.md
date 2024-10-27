@@ -1,4 +1,4 @@
-# Real-Estate-Investments
+# Ranking de Ciudades en Francia para Inversiones Inmobiliarias
 
 ### Objetivo del Proyecto
 Este proyecto tiene como objetivo desarrollar un sistema de scoring que permita clasificar ciudades francesas según su atractivo para la inversión en segundas viviendas considerando perfiles de riesgo alto, moderado y bajo.
