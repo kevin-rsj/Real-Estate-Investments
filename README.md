@@ -12,17 +12,17 @@ Para el desarrollo del sistema de puntuación se utilizan 6 ratios clave: growth
 
 El análisis se organiza en tres dimensiones de propiedades (general, casas y apartamentos) y tres perfiles de riesgo (alto, moderado y bajo).
 
-El proceso comienza con la exploración y limpieza de datos en Python utilizando librerías como pandas, numpy, matplotlib y seaborn. Dado que los datos están distribuidos en varios datasets, algunos como series de tiempo y otros sin fechas específicas, se asume que la última fecha disponible en cada tabla representa los datos más recientes para fines prácticos del análisis. De igual forma, en coherencia con el objetivo del caso se filtran las ciudades con una población mayor a 50,000 habitantes. El resultado final se guarda en el archivo CSV "modelo.csv", que luego se importa en BigQuery, donde se aplican transformaciones adicionales mediante consultas SQL.
+El proceso comienza con la exploración y limpieza de datos en Python ([Notebook](https://github.com/kevin-rsj/Real-Estate-Investments/blob/main/Notebooks/exploracion_variables_log.ipynb)) utilizando librerías como pandas, numpy, matplotlib y seaborn. Dado que los datos están distribuidos en varios datasets, algunos como series de tiempo y otros sin fechas específicas, se asume que la última fecha disponible en cada tabla representa los datos más recientes para fines prácticos del análisis. De igual forma, en coherencia con el objetivo del caso se filtran las ciudades con una población mayor a 50,000 habitantes. El resultado final se guarda en el archivo CSV "modelo.csv", que luego se importa en BigQuery, donde se aplican transformaciones adicionales mediante consultas SQL ([queries](https://github.com/kevin-rsj/Real-Estate-Investments/tree/main/Sql_queries)).
 
-"transformacion_variables.sql"
-"transformacion_variables_log.sql"
-"transformacion_variables_scaled.sql"
-"transformacion_variables_score.sql"
-"unificar_dimensiones.sql"
-"agregar_varibles_geograficas.sql"
-"tablas_dasboard.sql"
+  - 1 "transformacion_variables.sql"
+  - 2 "transformacion_variables_log.sql"
+  - 3 "transformacion_variables_scaled.sql"
+  - 4 "transformacion_variables_score.sql"
+  - 5 "unificar_dimensiones.sql"
+  - 6 "agregar_varibles_geograficas.sql"
+  - 7 "tablas_dasboard.sql"
 
-Finalmente, con las variables procesadas y el score calculado, se aplica un modelo de regresión utilizando Random Forest. Este modelo permite identificar las importancias de las variables en cada perfil de riesgo, empleando el score como variable dependiente y las variables procesadas como independientes. El proyecto dispone de la parte visual en Looker Studio y los datos estan disponibles en la carpeta "Data".
+Por ultimo, con las variables procesadas y el score calculado, se aplica un modelo de regresión utilizando Random Forest. Este modelo permite identificar las importancias de las variables en cada perfil de riesgo, empleando el score como variable dependiente y las variables procesadas como independientes. El proyecto dispone de la parte visual en Looker Studio ([Link](https://lookerstudio.google.com/reporting/3e106682-a635-4d55-ba9b-b4cf547afbbd)) y los datos estan disponibles en la carpeta "Data/([processed](https://github.com/kevin-rsj/Real-Estate-Investments/tree/main/Data/processed))", por su parte la data cruda esta disponible en ([Drive](https://drive.google.com/drive/folders/1DyDEhws_5C0ITh2232jmypNnYiJRFi-F?usp=sharing)). 
 
 - Formula para el calculo de las variables
   
