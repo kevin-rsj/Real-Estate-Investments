@@ -1,0 +1,55 @@
+variable,importence,type,investor
+Growth population,0.56,All,Moderate
+Salary rent ratio,0.15,All,Moderate
+Pricevolatility,0.04,All,Moderate
+Real estate tension,0.03,All,Moderate
+Touristic attractiveness index,0.16,All,Moderate
+Housing demand index,0.04,All,Moderate
+Growth population,0.7,House,Moderate
+Salary rent ratio,0.04,House,Moderate
+Pricevolatility,0.12,House,Moderate
+Real estate tension,0.04,House,Moderate
+Touristic attractiveness index,0.08,House,Moderate
+Housing demand index,0.02,House,Moderate
+Growth population,0.68,Apartment,Moderate
+Salary rent ratio,0.11,Apartment,Moderate
+Pricevolatility,0.07,Apartment,Moderate
+Real estate tension,0.05,Apartment,Moderate
+Touristic attractiveness index,0.06,Apartment,Moderate
+Housing demand index,0.05,Apartment,Moderate
+Growth population,0.37,All,High
+Salary rent ratio,0.05,All,High
+Pricevolatility,0.12,All,High
+Real estate tension,0.03,All,High
+Touristic attractiveness index,0.34,All,High
+Housing demand index,0.08,All,High
+Growth population,0.48,House,High
+Salary rent ratio,0.05,House,High
+Pricevolatility,0.29,House,High
+Real estate tension,0.07,House,High
+Touristic attractiveness index,0.09,House,High
+Housing demand index,0.03,House,High
+Growth population,0.44,Apartment,High
+Salary rent ratio,0.04,Apartment,High
+Pricevolatility,0.11,Apartment,High
+Real estate tension,0.06,Apartment,High
+Touristic attractiveness index,0.25,Apartment,High
+Housing demand index,0.08,Apartment,High
+Growth population,0.58,All,Low
+Salary rent ratio,0.21,All,Low
+Pricevolatility,0.02,All,Low
+Real estate tension,0.03,All,Low
+Touristic attractiveness index,0.14,All,Low
+Housing demand index,0.03,All,Low
+Growth population,0.73,House,Low
+Salary rent ratio,0.05,House,Low
+Pricevolatility,0.06,House,Low
+Real estate tension,0.02,House,Low
+Touristic attractiveness index,0.12,House,Low
+Housing demand index,0.02,House,Low
+Growth population,0.71,Apartment,Low
+Salary rent ratio,0.13,Apartment,Low
+Pricevolatility,0.04,Apartment,Low
+Real estate tension,0.03,Apartment,Low
+Touristic attractiveness index,0.06,Apartment,Low
+Housing demand index,0.03,Apartment,Low
